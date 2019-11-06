@@ -13,6 +13,9 @@ interface Response
    * Sends the response. That is, the headers and content.
    *
    * @return $this
+   *
+   * @api
+   * @since 1.0.0
    */
   public function send(): Response;
 
