@@ -1,8 +1,8 @@
 {
-  "name": "setbased/abc-response",
-  "description": "SetBased ABC-Framework: Response",
+  "name": "plaisio/response",
+  "description": "Plaísio: Response",
   "keywords": [
-    "SetBased ABC-Framework",
+    "Plaísio",
     "Response"
   ],
   "license": "MIT",
