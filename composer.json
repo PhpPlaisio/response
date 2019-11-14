@@ -1,8 +1,8 @@
 {
   "name": "plaisio/response",
-  "description": "Plaisio: Response",
+  "description": "PhpPlaisio: Response",
   "keywords": [
-    "Plaisio",
+    "PhpPlaisio",
     "Response"
   ],
   "license": "MIT",
