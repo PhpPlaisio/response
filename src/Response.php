@@ -10,25 +10,14 @@ interface Response
 {
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Sends the response. That is, the headers and content.
+   * Returns the content of the response.
    *
-   * @return $this
-   *
-   * @api
-   * @since 1.0.0
-   */
-  public function send(): Response;
-
-  //--------------------------------------------------------------------------------------------------------------------
-  /**
-   * Returns the status code of the response.
-   *
-   * @return int
+   * @return string
    *
    * @api
    * @since 2.0.0
    */
-  public function getStatus(): int;
+  public function getContent(): string;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -44,14 +33,25 @@ interface Response
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Returns the content of the response.
+   * Returns the status code of the response.
    *
-   * @return string
+   * @return int
    *
    * @api
    * @since 2.0.0
    */
-  public function getContent(): string;
+  public function getStatus(): int;
+
+  //--------------------------------------------------------------------------------------------------------------------
+  /**
+   * Sends the response. That is, the headers and content.
+   *
+   * @return $this
+   *
+   * @api
+   * @since 1.0.0
+   */
+  public function send(): Response;
 
   //--------------------------------------------------------------------------------------------------------------------
 }
